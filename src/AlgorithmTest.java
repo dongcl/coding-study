@@ -1,2 +1,11 @@
-package PACKAGE_NAME;public class AlgorithmTest {
+import java.util.Arrays;
+
+public class AlgorithmTest {
+    public static void main(String[] args) {
+        int arr[] = { 38,65,97,76,13,27,49 };
+        SortAlgorithm.insertSort(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+
 }
